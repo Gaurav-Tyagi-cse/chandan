@@ -1,0 +1,25 @@
+﻿.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a,
+.pagination .ph {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pagination .ph-arrow-left,
+.pagination .ph-arrow-right {
+    cursor: pointer;
+}
+
+.pagination .active {
+    font-weight: bold;
+}
